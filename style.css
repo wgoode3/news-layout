@@ -52,7 +52,7 @@ body {
 }
 
 .main-navigation h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 .nav-small {
@@ -70,7 +70,7 @@ ul.nav-small li a {
     color: #fff;
     text-decoration: none;
     border-right: 1px solid #fff3;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 } 
 
 ul.nav-small li:first-child a {
@@ -103,7 +103,7 @@ ul.nav li {
 
 ul.nav li a {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     font-weight: bold;
     color: #000;
 }
@@ -160,7 +160,7 @@ ul.nav li:last-child {
 }
 
 .col-1-5 p {
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 h2, h4 {
