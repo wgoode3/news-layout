@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(
+        #fff 40px, 
+        #b91f1e 40px, 
+        #b91f1e 140px, 
+        #fff 140px
+    );
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top-navigation {
+    height: 40px;
+    position: relative;
+}
+
+.top-navigation form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top-navigation form input, .top-navigation form button{
+    background-color: #eee;
+    border: none;
+    padding: 5px;
+    position: absolute;
+    top: 7px;
+    right: 0px;
+}
+
+.top-navigation form button {
+    padding: 3px;
+    top: 9px;
+    right: 0px;
+}
+
+.main-navigation {
+    background-color: #b91f1e;
+    color: #fff;
+    height: 80px;
+    padding: 10px 0;
+}
+
+.main-navigation h1 {
+    font-size: 2.5rem;
+}
+
+.nav-small {
+    margin-top: 16px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.nav-small li {
+    display: inline-block;
+}
+
+ul.nav-small li a {
+    padding: 0px 8px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff3;
+    font-size: 0.9rem;
+} 
+
+ul.nav-small li:first-child a {
+    padding-left: 0;
+}
+
+.active {
+    padding-bottom: 5px !important;
+    border-bottom: 3px solid white;
+}
+
+.brand {
+    margin-top: 7px;
+    margin-right: 20px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+ul.nav li {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+ul.nav li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000;
+}
+
+ul.nav li:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.topic {
+    border-bottom: 3px solid #b91f1e;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.col-2-5, .col-3-5, .col-1-5 {
+    display: inline-block;
+    height: 600px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.col-2-5 img, .col-3-5 img {
+    width: 100%;
+}
+
+.col-2-5 {
+    width: calc(40% - 10px);
+    padding-left: 0px;
+}
+
+.col-3-5 {
+    width: calc(60% - 4px);
+    margin-right: 0;
+}
+
+.col-1-5 {
+    width: calc(33% - 8px);
+    height: 300px;
+    padding-left: 0px;
+}
+
+.col-1-5:nth-child(3n) {
+    margin-right: 0;
+}
+
+.subcontent {
+    height: 60px;
+}
+
+.col-2-5 p, .col-1-5 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.col-1-5 p {
+    font-size: 0.8rem;
+}
+
+h2, h4 {
+    margin: 10px 0;
+} 
